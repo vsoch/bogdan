@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+		header { padding-top:25px; border-bottom:4px solid #CCC; padding-bottom:15px; background:#093; 
+		/*background-image: url("../img/header_bg.png");*/ }
+		header .logo {font-size:3.52em; margin-left: 36px;}
+		header nav ul li {float:left; margin-top:12px;}
+		header nav ul li a {display:block; padding:5px 15px; border-right:1px solid #eee; font-size:1.52em; font-family:Georgia, "Times New Roman", Times, serif; text-decoration:none; }
+		header nav ul li a:hover { border-right:1px solid #ccc; text-shadow:-1px -1px 0px #333; }
+		header nav ul li.last a {border-right:none;}
+		
+		#snug {margin-top:0px;}
+		
+		.box {padding:5px; background-color:#093; border:1px dashed #ccc; list-style:none; margin-left:10px; margin-right:14px; margin-bottom:15px; width: 444px; float: left; height:100px; border-radius: 10px;}
+		
+		#styled {margin-top:20px;}
+		
+		.group {padding:5px; background-color:#eee; border:1px dashed #ccc; list-style:none; margin:0px; margin-bottom:5px;}
+		.group a {font-size:1.2em;}
+		.group p {margin-bottom:5px;}
+		.group li {margin-bottom:5px;}
+		
+		#css3 div > div {margin:0px 0px 50px 0px; padding:6px; border:1px solid #eee;}
+		#grid div {text-align:center;  }
+		#grid div > .col {border-bottom:1px solid #ccc; padding:10px 0px; outline:1px solid #eee;}
+		
+		h2 {border-bottom:1px dashed #ccc; margin-top:15px;}
+		
+		.documentation {display:block; background-color:#eee; padding:6px 13px; font-family:Georgia, "Times New Roman", Times, serif; color:#666; text-align:right; text-shadow:-1px -1px 0px #fff;}
+		
+		footer {
+	text-align:center;
+	color:#FFF;
+	font-size:0.9em;
+	margin-left: 0;
+	/*padding:4px 0px;*/
+	border-bottom:4px solid #CCC;
+	padding-bottom:15px;
+	background: #06C;
+	}
+	footer .rowhead { margin-left: 0px; margin-top: 10px; padding-top: 2px; }
+		
+		.report_bugs {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	position: absolute;
+	left:-45px;
+	top:200px;
+	background-color:#06C;
+	color:#fff;
+	z-index:99;
+			filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+	padding:2px 5px;
+		}
+		
+/* SLIDER ---------------------------------- */
+ 
+#slider1 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 226px;
+	width: 850px;
+}
+ 
+#slider1 li {
+    padding: 0;
+    margin: 0;
+    zoom:1;
+}
+ 
+#slider1 img,
+#slider2 img {
+    float: left;
+    margin-right: 36px;
+    border: solid #666 1px;
+}
+
+/* RSS News Feed Ticket */
+.rssFeed
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	width: 935px;
+	margin-bottom: 1.7em;
+	float: left;
+	border-radius:10px;
+}
+.rssFeed a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.rssFeed a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+.rssHeader { padding: 0.2em 0; 	border-radius:10px;}
+
+.rssBody { border: 1px solid #ccc; 	border-radius:10px;}
+.rssBody ul { list-style: none; }
+.rssBody ul, .rssRow, .rssRow h4, .rssRow p
+
+.rssRow h4, .rssRow p, .rssRow div
+{
+	margin: .5;
+	padding: 0.5em;
+	width: 935px;
+	border-radius:10px;
+}
+
+#ticker1 .odd {	background-color: #06C;  border-radius:10px;}
+#ticker1 .even { background-color: #093; border-radius:10px;}
+
+#ticker2 .odd { background-color: #06C; border-radius:10px;}
+#ticker2 .even { background-color: #093; border-radius:10px;}
+
+   [if IE]> <style> .report_bugs {left:0px;}	<![endif]
+ 
